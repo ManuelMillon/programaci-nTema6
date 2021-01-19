@@ -4,13 +4,13 @@
 package tema6;
 
 /**
- * @author Manuel Millón
+ * @author Manuel Millï¿½n
  *
  */
 public class Tem6Ejercicio3 {
 
 	/**
-	 * 3. Igual que el ejercicio anterior pero con la baraja española. Se utilizará la baraja de
+	 * 3. Igual que el ejercicio anterior pero con la baraja espaï¿½ola. Se utilizarï¿½ la baraja de
 	 * 48 cartas: 2, 3, 4, 5, 6, 7, 8, 9, sota, caballo, rey y as
 	 */
 	public static void main(String[] args) {
@@ -19,11 +19,11 @@ public class Tem6Ejercicio3 {
 			String palo = "";
 			String figura = "";
 
-			int numeroCarta = (int) (Math.random() * 11 + 1);
+			int numeroCarta = (int) (Math.random() * 13 + 1);
 			
 			switch (numeroCarta) {
 				case 1:
-					figura = "el as";
+					figura = " as";
 					break;
 				case 11:
 					figura = "la sota";
@@ -32,7 +32,7 @@ public class Tem6Ejercicio3 {
 					figura = "la reina";
 					break;
 				case 13:
-					figura = "la rey";
+					figura = " rey";
 					break;
 				default:
 					figura = String.valueOf(numeroCarta);

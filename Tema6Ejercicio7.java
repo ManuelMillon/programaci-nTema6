@@ -4,7 +4,7 @@
 package tema6;
 
 /**
- * @author Manuel Millón
+ * @author Manuel Millï¿½n
  *
  */
 public class Tema6Ejercicio7 {
@@ -17,11 +17,10 @@ public class Tema6Ejercicio7 {
 	public static void main(String[] args) {
 
 		int resultado = 0; /* Declaramos e iniciamos resultado. */
-		int columnas = 3; /* Declaramos el número de columnas. */
+		int columnas = 3; /* Declaramos el nï¿½mero de columnas. */
 
-		for (int fila = 1; fila <= 15; fila++) { /* Creamos un relleno de 15 filas */
-			System.out.printf("%5d  |", fila); /* Indicamos una fila, creamos un espacio y creamos en el resultado */
-			/* una barra para separar el número de fila del resultado */
+		for (int fila = 1; fila <= 15; fila++) { 
+			System.out.printf("%5d  |", fila); 
 
 			if (fila == 15) {
 				columnas = 1; /* Creamos una columna para el resultado. */
@@ -30,7 +29,7 @@ public class Tema6Ejercicio7 {
 																	 * Creamos un bucle de estiramiento de resultados,
 																	 * empezando por el 1, hasta el 15.
 																	 */
-				resultado = (int) (Math.random() * 3 + 1); /* Número de opciones aleatorias. */
+				resultado = (int) (Math.random() * 3 + 1); /* Nï¿½mero de opciones aleatorias. */
 			}
 			switch (resultado) { /* Damos valor a los resultados aleatorios. */
 			case 1:

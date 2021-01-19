@@ -12,9 +12,9 @@ import java.util.Scanner;
 public class Tema6Ejercicio14 {
 
 	/**
-	 * 14. Escribe un programa que piense un número al azar entre 0 y 100. El
-	 * usuario debe adivinarlo y tiene para ello 5 oportunidades. Después de cada
-	 * intento fallido, el programa dirá cuántas oportunidades quedan y si el número
+	 * 14. Escribe un programa que piense un nï¿½mero al azar entre 0 y 100. El
+	 * usuario debe adivinarlo y tiene para ello 5 oportunidades. Despuï¿½s de cada
+	 * intento fallido, el programa dirï¿½ cuï¿½ntas oportunidades quedan y si el nï¿½mero
 	 * introducido es menor o mayor que el que ha pensado
 	 */
 	public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class Tema6Ejercicio14 {
 		int numeroIntroducido;
 		boolean acierto = false;
 		do {
-			System.out.print("Por favor, introduzca el número aleatorio entre 1 y 100 y después INTRO: ");
+			System.out.print("Por favor, introduzca el nÃºmero aleatorio entre 1 y 100 y despuÃ©s INTRO: ");
 			numeroIntroducido = keyboard.nextInt();
 			intentos--;
 			
@@ -33,15 +33,15 @@ public class Tema6Ejercicio14 {
 				acierto = true;
 			}
 			if (numeroIntroducido < numeroAlAzar) {
-				System.out.println("Numero incorrecto. El número introducido es menor que el buscado. Te quedan "
+				System.out.println("NÃºmero incorrecto. El nÃºmero introducido es menor que el buscado. Te quedan "
 						+ (intentos -1) + " intentos.");
 			}
 			if (numeroAlAzar < numeroIntroducido) {
-				System.out.println("Numero incorrecto. El número introducido es mayor que el buscado. Te quedan "
+				System.out.println("NÃºmero incorrecto. El nÃºmero introducido es mayor que el buscado. Te quedan "
 						+ (intentos -1) + " intentos.");
 			}
 			if (acierto) {
-				System.out.println("Enhorabuena, has acertado el número.");
+				System.out.println("Enhorabuena, has acertado el nÃºmero.");
 			}
 			else {
 				if(intentos == 0) {

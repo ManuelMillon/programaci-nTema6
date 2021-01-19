@@ -10,9 +10,9 @@ package tema6;
 public class Tema6Ejercicio5 {
 
 	/**
-	 * Muestra 50 números enteros aleatorios entre 100 y 199 (ambos incluidos)
-	 * separados por espacios. Muestra también el máximo, el mínimo y la media
-	 * de esos números.
+	 * Muestra 50 nÃºmeros enteros aleatorios entre 100 y 199 (ambos incluidos)
+	 * separados por espacios. Muestra tambiÃ©n el mÃ¡ximo, el mÃ­nimo y la media
+	 * de esos nÃºmeros.
 	 */
 	public static void main(String[] args) {
 		
@@ -36,7 +36,7 @@ public class Tema6Ejercicio5 {
 	        }
 	        	        
 	    }
-	    System.out.println("\nMinimo: " + minimo + "\nMáximo: " + maximo + "\nMedia: " + suma / 50);
+	    System.out.println("\nMinimo: " + minimo + "\nMaximo: " + maximo + "\nMedia: " + suma / 50);
 	}
 
 }

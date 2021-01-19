@@ -4,13 +4,13 @@
 package tema6;
 
 /**
- * @author Manuel Millón
+ * @author Manuel Millï¿½n
  *
  */
 public class Tema6Ejercicio13 {
 
 	/**
-	 * Escribe un programa que simule la tirada de dos dados. El programa deberá
+	 * Escribe un programa que simule la tirada de dos dados. El programa deberÃ¡
 	 * continuar tirando los dados una y otra vez hasta que en alguna tirada los dos
 	 * dados tengan el mismo valor.
 	 */

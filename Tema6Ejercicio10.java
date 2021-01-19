@@ -4,15 +4,15 @@
 package tema6;
 
 /**
- * @author Manuel Millón
+ * @author Manuel Millï¿½n
  *
  */
 public class Tema6Ejercicio10 {
 
 	/**
-	 * * 10. Realiza un programa que pinte por pantalla diez líneas formadas por
-	 * caracteres. El carácter con el que se pinta cada línea se elige de forma
-	 * aleatoria entre uno de los siguientes: *, -, =, ., |, @. Las líneas deben
+	 * * 10. Realiza un programa que pinte por pantalla diez lÃ­neas formadas por
+	 * caracteres. El caracter con el que se pinta cada lÃ­nea se elige de forma
+	 * aleatoria entre uno de los siguientes: *, -, =, ., |, @. Las lÃ­neas deben
 	 * tener una longitud aleatoria entre 1 y 40 caracteres.
 	 * 
 	 */
@@ -35,7 +35,7 @@ public class Tema6Ejercicio10 {
 					caracter = "=";
 					break;
 				case 4:
-					caracter = "·";
+					caracter = "ï¿½";
 					break;
 				case 5:
 					caracter = "|";

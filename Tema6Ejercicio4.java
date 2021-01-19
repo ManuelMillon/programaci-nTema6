@@ -4,17 +4,17 @@
 package tema6;
 
 /**
- * @author Manuel Millón
+ * @author Manuel Millï¿½n
  *
  */
 public class Tema6Ejercicio4 {
 
 	/**
 	 * 2. Realiza un programa que muestre al azar el nombre de una carta de la
-	 * baraja francesa. Esta baraja está dividida en cuatro palos: picas, corazones,
-	 * diamantes y tréboles. Cada palo está formado por 13 cartas, de las cuales 9
+	 * baraja francesa. Esta baraja estÃ¡ dividida en cuatro palos: picas, corazones,
+	 * diamantes y trÃ©boles. Cada palo estï¿½ formado por 13 cartas, de las cuales 9
 	 * cartas son numerales y 4 literales: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K y A
-	 * (que sería el 1). Para convertir un número en una cadena de caracteres
+	 * (que serÃ­a el 1). Para convertir un nï¿½mero en una cadena de caracteres
 	 * podemos usar String.valueOf(n).
 	 * 
 	 */
@@ -54,7 +54,7 @@ public class Tema6Ejercicio4 {
 				palo = "corazones";
 				break;
 			case 3:
-				palo = "tréboles";
+				palo = "trÃ©boles";
 				break;
 			case 4:
 				palo = "rombos";

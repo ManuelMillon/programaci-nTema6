@@ -4,19 +4,19 @@
 package tema6;
 
 /**
- * @author Manuel Millón
+ * @author Manuel Millï¿½n
  *
  */
 public class Tema6Ejercicio2 {
 
 	/**
-	 * 4. Muestra 20 números enteros aleatorios entre 0 y 10 (ambos incluidos)
+	 * 4. Muestra 20 nÃºmeros enteros aleatorios entre 0 y 10 (ambos incluidos)
 	 * separados por espacios.
 
 	 */
 	public static void main(String[] args) {
 		for (int i = 0; i <20 ; i++) {
-			int numero = (int)(Math.random() * 10 + 1); // se puede definir un número entero como un conjunto de tiradas aleatorias.
+			int numero = (int)(Math.random() * 10 + 1); // se puede definir un nï¿½mero entero como un conjunto de tiradas aleatorias.
 			System.out.print(numero + " ");
 		}
 		

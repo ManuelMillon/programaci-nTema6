@@ -12,9 +12,9 @@ import java.util.Scanner;
 public class Tema6Ejercicio6 {
 
 	/**
-	 * Escribe un programa que piense un número al azar entre 0 y 100. El usuario
-	 * debe adivinarlo y tiene para ello 5 oportunidades. Después de cada intento
-	 * fallido, el programa dirá cuántas oportunidades quedan y si el número
+	 * Escribe un programa que piense un nï¿½mero al azar entre 0 y 100. El usuario
+	 * debe adivinarlo y tiene para ello 5 oportunidades. Despuï¿½s de cada intento
+	 * fallido, el programa dirÃ¡ cuÃ¡ntas oportunidades quedan y si el nÃºmero
 	 * introducido es menor o mayor que el que ha pensado.
 	 */
 	public static void main(String[] args) {
@@ -27,7 +27,7 @@ public class Tema6Ejercicio6 {
 		int numeroAleatorio = (int) (Math.random() * 101);
 
 		do {
-			System.out.println("Por favor, intente acertar el número: ");
+			System.out.println("Por favor, intente acertar el nÃºmero: ");
 			numeroIntroducido = teclado.nextInt();
 
 		if (numeroIntroducido == numeroAleatorio) {
@@ -41,9 +41,9 @@ public class Tema6Ejercicio6 {
 		} while ((intentos > 0) && (!acierto));
 
 		if (acierto) {
-			System.out.println("Eres un genio. Has acertado el número buscado");
+			System.out.println("Eres un genio. Has acertado el nï¿½mero buscado");
 		} else {
-			System.out.println("Lo siento, se acabaron las oportunidades");
+			System.out.println("Se acabaron las oportunidades.");
 		}
 
 	}
